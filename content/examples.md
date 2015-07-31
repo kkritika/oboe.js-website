@@ -51,9 +51,9 @@ oboe('/myapp/things.json')
 
       console.log( 'Go eat some', foodThing.name);
    })
-   .node('badThings.*', function( badThing ){
+   .node('badThings.*', function( badThings ){
           
-      console.log( 'Stay away from', badThing.name);
+      console.log( 'Stay away from', badThings.name);
    })   
    .done(function(things){
    
